@@ -32,7 +32,7 @@ public class StopWatch {
                 System.out.flush();
 
                 System.out.printf("%02d:%02d%n", minutes, seconds);
-                TimeUnit.MILLISECONDS.sleep(1000);
+                TimeUnit.MILLISECONDS.sleep(100);
 
                 if (seconds == 0) {
                     seconds = 59;
