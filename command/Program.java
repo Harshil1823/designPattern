@@ -3,7 +3,8 @@ package command;
 import java.util.Scanner;
 
 /**
- * A program to run the Stop Watch
+ * A program to run the Stop Watch\
+ * @author @javadoc
  */
 public class Program {
     private Scanner reader;
@@ -41,7 +42,11 @@ public class Program {
 
         System.out.println("Goodbye");
     }
-
+    /**
+     * The main method creates a new Program object and calls its run method.
+     *
+     * @param args The command line arguments.
+     */
     public static void main(String[] args) {
         Program program = new Program();
         program.run();
