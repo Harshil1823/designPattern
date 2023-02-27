@@ -2,6 +2,7 @@ package command;
 
 /**
  * The ThirtySecCommand class is responsible for setting the StopWatch countdown time to thirty seconds and executing it.
+ * @author javadoc
  */
 public class ThirtySecCommand implements Command {
 
